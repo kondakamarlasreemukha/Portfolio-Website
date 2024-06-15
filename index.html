@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e39adb657.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Sreemukha</span><br> Kondakamarla from India</h1>
+            </div>
+        </div>
+    </div>
+    <!---------about--------------------->
+    <div id="about">
+        <div id="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub title">About Me</h1>
+                    <p>I'm Sreemukha from a small and beautifull village near Madanaoalle. I pursuing my BTech in 
+                        Madanapalle Institute of technology & Science, Madanapalle.For developing my skills i worked on small projects
+                        and did a so many certificates in different companies. I did internships in startup companies to get the company mindset
+                        and also to aquire more skills and Knowledge.I'm a hardworker and have so much of patience to deal with work. I interested
+                        to read Novels and to watch Animes and Web Series.My goal is to serve for nation.
+                     </p>
+                     <div class="tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                         <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app Interfaces</li>
+                            <li><span>Cloud Computing</span><br>AWS/Website hosting</li>
+                            <li><span>Web Development</span><br>Web Application Developmemt</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Student</span><br>Fresher</li>
+                    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019</span><br>SSC from Siddartha School B Kothakota</li>
+                            <li><span>2021</span><br>Diploma From Sree Venkateswara Govt.Polytechnic Tirupati</li>
+                            <li><span>2025</span><br>BTech CSE From MITS Madanapalle</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------Services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design involves creating the visual elements and layout of a website.</p>
+                      <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-duotone fa-cloud"></i>
+                <h2>Cloud Computing</h2>
+                <p>cloud computing is the delivery of computing services—including servers.</p>
+                      <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX designers contribute to the product development process by understanding user needs.</p>
+                      <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------Portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Social media is a collective term for websites and applications that focus on communication,
+                         community-based input, interaction, content-sharing and collaboration.</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A music streaming app is an online music app that helps users to listen to
+                         their favorite songs online. There are two types of music apps- audio and video.</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <p>An online store is a website, app or platform that helps businesses sell their products
+                         or services digitally. Online stores offer convenience, accessibility, and often a wider range 
+                         of products than bricks-and-mortar stores, allowing customers to browse, place orders, and make payments virtually.</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------Contact--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sreemukhakondakamarla@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7075439375</p>
+                <div class="social-icons">
+                    <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sreemukha-kondakamarla-858852206"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/my CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>  
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>copy right to sreemukha with<i class="fa-solid fa-heart"></i> by my skills </p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+    </script>
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbypiQS45hIdxjfpZ-Co0SR-gAQZ8zzxHZ1ZVp6kAZLCwVE_brWLaA_ALoKa_ZuBdu5l/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
